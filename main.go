@@ -9,5 +9,5 @@ func main() {
 			"message": "pong",
 		})
 	})
-	r.Run(":80")
+	panic(r.Run(":80"))
 }
